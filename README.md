@@ -13,11 +13,15 @@ exactly the same steps for you.
 ## How to use it?
 1. Download the postman-updater.sh file on your computer or checkout this repository.
 2. Change the file permissions in order to be executable by the current user.
-<pre>
+```bash
 chmod u+x postman-updater.sh
-</pre>
+```
+
 3. Run the program with:
-<pre>
+```bash
 ./postmain-updater.sh
-</pre>
+```
+Your `sudo` password will be required at some point, as the installation will 
+take place under `/usr/bin` folder.
+
 
